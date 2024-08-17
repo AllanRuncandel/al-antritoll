@@ -1,0 +1,38 @@
+.content {
+    position: absolute;
+    bottom: 0;
+    right: 15vw;
+    width: auto;
+    height: 84px;
+    background: linear-gradient(174deg, rgba(11,11,11,0.9) 52%, rgba(138,23,33,0.9) 100%, rgba(227,38,54,0.9) 100%);
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+}
+
+.content * {
+    font-family: 'Segoe UI';
+    color: #E9E9E9;
+}
+
+.newPlayer {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0.3rem;
+}
+
+.timer {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin: 11px;
+}
